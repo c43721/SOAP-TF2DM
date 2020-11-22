@@ -1300,7 +1300,7 @@ stock GetRealClientCount() {
 
 DownloadConfig(const String:map[], const String:targetPath[]) {
 	decl String:url[256];
-	Format(url, sizeof(url), "https://raw.githubusercontent.com/Lange/SOAP-TF2DM/master/addons/sourcemod/configs/soap/%s.cfg", map);
+	Format(url, sizeof(url), "https://raw.githubusercontent.com/icewind1991/SOAP-TF2DM/master/addons/sourcemod/configs/soap/%s.cfg", map);
 
 	new Handle:curl = curl_easy_init();
 	new Handle:output_file = curl_OpenFile(targetPath, "wb");
