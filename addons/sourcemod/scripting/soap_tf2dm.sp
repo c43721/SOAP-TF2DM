@@ -17,7 +17,7 @@
 #define PLUGIN_AUTHOR       "Icewind, MikeJS, Lange, Tondark, & stephanie"
 #define PLUGIN_VERSION      "4.0.3"
 #define PLUGIN_CONTACT      "https://steamcommunity.com/id/icewind1991, https://steamcommunity.com/id/langeh/, https://steph.anie.dev"
-#define UPDATE_URL          "https://raw.githubusercontent.com/Lange/SOAP-TF2DM/master/updatefile.txt"
+#define UPDATE_URL          "https://raw.githubusercontent.com/spiretf/SOAP-TF2DM/master/updatefile.txt"
 
 // ====[ VARIABLES ]===================================================
 new bool:FirstLoad;
